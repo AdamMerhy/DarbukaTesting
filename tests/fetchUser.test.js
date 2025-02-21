@@ -12,7 +12,7 @@ describe('fetchUser', () => {
 
   
     global.fetch.mockResolvedValueOnce({
-      ok: true,
+      ok: true, //succcess
       json: () => Promise.resolve(mockUserData),
     });
 
@@ -25,7 +25,7 @@ describe('fetchUser', () => {
   it('This should throw an error when the user is not found', async () => {
    
     global.fetch.mockResolvedValueOnce({
-      ok: false,
+      ok: false, //fail
       status: 404,
     });
 
