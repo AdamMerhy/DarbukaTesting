@@ -2,32 +2,32 @@
 
 ## How to Run the Tests 
 
-* Clone the repository:
-    git clone https://github.com/AdamMerhy/DarbukaTesting.git
-    cd DarbukaTesting
+1. Clone the repository:
+    * git clone https://github.com/AdamMerhy/DarbukaTesting.git
+    * cd DarbukaTesting
     
-* Install dependencies:
+2. Install dependencies:
     * For npm:
         npm install
 
-* Run the tests:
+3. Run the tests:
     * npm test
 
 ## Assumptions
 
-* applyDiscount:
+1. applyDiscount:
     * The discountPercentage must be between 0 and 100 (inclusive).
     * The total must be a valid number. Non-numeric inputs or missing values result in NaN.
 
-* calculateTotal:
+2. calculateTotal:
     * Each item in the items array must have price and quantity properties.
     * Missing or invalid properties result in NaN.
 
-* fetchUser:
+3. fetchUser:
     * The API endpoint (https://api.example.com/users/${userId}) is assumed to return valid JSON data.
     * Network errors or invalid user IDs result in thrown errors.
 
-* formatPrice
+4. formatPrice
     * The amount must be a valid number. Non-numeric inputs or missing values result in thrown errors.
     * Small decimal numbers (e.g., 0.001) are rounded to 0.00.
 
