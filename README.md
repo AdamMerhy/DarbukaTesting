@@ -7,8 +7,7 @@
     * cd DarbukaTesting
     
 2. Install dependencies:
-    * For npm:
-        npm install
+    * npm install
 
 3. Run the tests:
     * npm test
