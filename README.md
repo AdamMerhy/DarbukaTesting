@@ -43,14 +43,16 @@
 	    6. Small Total
 	    7. Large Total
 	    8. Decimal Discount
-    * Edge Cases	Total is 0
-	    1. Negative Total
-    * Error Handling	Missing Total
-	    1. Missing Percentage
-	    2. Non-Number Total Input
-	    3. Non-Number Discount Percentage Input
-	    4. Discount Percentage < 0
-	    5. Discount Percentage > 100
+    * Edge Cases	
+        1. Total is 0
+	    2. Negative Total
+    * Error Handling	
+        1. Missing Total
+	    2. Missing Percentage
+	    3. Non-Number Total Input
+	    4. Non-Number Discount Percentage Input
+	    5. Discount Percentage < 0
+	    6. Discount Percentage > 100
 
 2. calculateTotal:
     * Typical Use Cases	
