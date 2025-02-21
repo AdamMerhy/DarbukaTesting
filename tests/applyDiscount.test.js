@@ -175,3 +175,5 @@ test('should throw an error for discount percentage > 100', () => {
     expect(() => applyDiscount(100, 110)).toThrow("Invalid discount");
 });
         // discount percentage > 100
+
+//testing workflow
