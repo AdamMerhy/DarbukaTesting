@@ -1,7 +1,5 @@
 # DarbukaTesting
 
-![Tests](https://github.com/AdamMerhy/DarbukaTesting/actions/workflows/main.yml/badge.svg)
-
 ## How to Run the Tests 
 
 1. Clone the repository:
